@@ -17,10 +17,10 @@ public class Camera_Parent : MonoBehaviour {
         _curPos = this.transform.position;
 	}
 
-    void Update()
+    void FixedUpdate()
     {
-        if(Camera_Control1._nextPos!=_curPos)
-            Adjust(Camera_Control1._nextPos,3f);
+       // if(Camera_Control1._nextPos!=_curPos)
+         //   Adjust(Camera_Control1._nextPos,3f);
 
     }
 
